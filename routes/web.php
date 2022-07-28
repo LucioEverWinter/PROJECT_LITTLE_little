@@ -1,10 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AppController;
-use App\Http\Controllers\HomeController;
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Route;
 
 
 
@@ -20,5 +18,4 @@ Route::get('/event', [App\Http\Controllers\EventController::class, 'index'])->na
 
 Route::get('/app', [App\Http\Controllers\AppController::class, 'index'])->name('app');
 
-Route::get('/aboutUs', [App\Http\Controllers\AboutController::class, 'index'])->name('aboutUs');
-
+Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index'])->name('contact');
