@@ -8,7 +8,7 @@
 
       <div>
         <ul class="Frame20">
-          <li class="homeBox"><a href="{{route('app')}}"> Trang chủ </a></li>
+          <li><a href="{{route('app')}}"> Trang chủ </a></li>
           <li><a href="{{route('event')}}"> Sự kiện</a></li>
           <li><a href="{{route('contact')}}"> Liên hệ</a></li>
         </ul>
@@ -16,7 +16,9 @@
 
         <div class="Frame22">
           <div class="Group">
-            <img src="images/Vector (Stroke) .png" class="Frame21">
+            <div class="Frame21">
+              <img src="images/Vector (Stroke) .png" class="Vectorstroke" >
+            </div>
           </div>
           <div class="phoneNumber">
             0123456789
